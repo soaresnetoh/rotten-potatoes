@@ -1,6 +1,6 @@
 # rotten-potatoes
 
-Fork da aplicação do [kubedev]( https://github.com/KubeDev/conversao-temperatura) para desenvolvimento do aprendizado na Iniciativa Kubernetes que aconteceu em 03/2022.
+Fork da aplicação do [kubedev](https://github.com/KubeDev/rotten-potatoes) para desenvolvimento do aprendizado na Iniciativa Kubernetes que aconteceu em 03/2022.
 
 Após a aula, foi possivel aprender a configurar o Kubernetes local com k3d e subir a aplicação no cluster.
 
