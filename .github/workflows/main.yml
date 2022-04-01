@@ -58,7 +58,12 @@ jobs:
           method: kubeconfig
           kubeconfig: ${{ secrets.KUBECONFIG_K8S }}
           context: <context name> # current-context from kubeconfig is used as default
-
+      - name: Deploy to Kubernetes cluster
+        uses: Azure/k8s-deploy@v3.0
+        with:
+          images: hernanisoares/rotten-potatoes:${{ github.run_number }}
+          manifests: |
+            k8s/deployment.yaml
 
 
 
