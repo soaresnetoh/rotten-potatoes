@@ -61,7 +61,7 @@ jobs:
       - name: Deploy to Kubernetes cluster
         uses: Azure/k8s-deploy@v3.0
         with:
-          images: hernanisoares/rotten-potatoes:${{ github.run_number }}
+          images: hernanisoares/rotten-potatoes:arm64
           manifests: |
             k8s/deployment.yaml
 
